@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ellawy Language</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/i18n.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/img/logo.png" class="logo" />
+    <nav>
+      <a href="index.html" data-i18n="home">Home</a>
+      <a href="docs.html" data-i18n="docs">Docs</a>
+      <a href="examples.html" data-i18n="examples">Examples</a>
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ar')">AR</button>
+      <button onclick="toggleTheme()">🌗</button>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Ellawy Programming Language</h1>
+    <p data-i18n="desc">
+      A modern scripting language for games & mods.
+    </p>
+
+    <a class="btn" href="docs.html" data-i18n="getStarted">Get Started</a>
+  </main>
+</body>
+</html>
